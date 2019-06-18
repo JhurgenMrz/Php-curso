@@ -1,3 +1,12 @@
+<?php
+$lastName = 'Maraza';
+$name = "Jhurgen $lastName";
+//$name = 'Jhurgen ' .$lastName;
+
+
+//var_dump($name); Para ver mostrar informacion de la variable
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,7 +40,7 @@
           />
         </div>
         <div class="col">
-          <h1>Hector Benitez</h1>
+          <h1><?php echo $name?></h1>
           <h2>PHP Developer</h2>
           <ul>
             <li>
